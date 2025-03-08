@@ -22,8 +22,6 @@ const SLIDES: OnboardingSlideType[] = [
     }
   ]
 
-  
-
 const Onboarding = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const flatListRef = useRef<FlatList>(null)
